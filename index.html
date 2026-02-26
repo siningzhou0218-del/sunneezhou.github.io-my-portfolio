@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunnee Zhou | Investment Banking Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="scroll-progress" aria-hidden="true">
+    <div class="scroll-progress-bar"></div>
+    <a href="#hero" class="scroll-progress-dot" data-section="hero" title="Intro">·</a>
+    <a href="#about" class="scroll-progress-dot" data-section="about" title="About">·</a>
+    <a href="#experience" class="scroll-progress-dot" data-section="experience" title="Experience">·</a>
+    <a href="#work" class="scroll-progress-dot" data-section="work" title="Selected Projects">·</a>
+    <a href="#resume" class="scroll-progress-dot" data-section="resume" title="Resume">·</a>
+    <a href="#contact" class="scroll-progress-dot" data-section="contact" title="Contact">·</a>
+</div>
+
+<div class="page">
+    <!-- HEADER -->
+    <header class="site-header">
+        <a href="#" class="site-logo" aria-label="Home">SZ</a>
+        <nav class="site-nav" aria-label="Main">
+            <a href="#about" class="nav-link" data-section="about">About</a>
+            <a href="#experience" class="nav-link" data-section="experience">Experience</a>
+            <a href="#work" class="nav-link" data-section="work">PROJECTS</a>
+            <a href="#resume" class="nav-link" data-section="resume">Resume</a>
+            <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+        </nav>
+    </header>
+
+    <main class="site-main">
+    <!-- HERO SECTION (simonfan.xyz style + Wall Street) -->
+    <section class="hero hero--editor" id="hero">
+        <div class="hero-photo-wrap">
+            <img src="pfp.jpg" class="hero-avatar" alt="Sunnee Zhou">
+        </div>
+
+        <div class="hero-editor">
+            <div class="hero-road-sign" role="img" aria-label="Wall Street">
+                <span class="hero-road-sign-icon" aria-hidden="true">
+                    <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+                        <path d="M6 32V12l2-1 4 2 6-3 6 3 4-2 2 1v20H6z" fill="currentColor" opacity="0.92"/>
+                        <path d="M10 16v12h3V16h-3zm7 0v12h3V16h-3zm7 0v12h3V16h-3z" fill="currentColor" opacity="0.75"/>
+                        <circle cx="31" cy="29" r="6" fill="currentColor"/>
+                        <text x="31" y="32" text-anchor="middle" fill="#e2e8f0" font-size="7" font-weight="700" font-family="system-ui, sans-serif">$</text>
+                    </svg>
+                </span>
+                <div class="hero-road-sign-text">
+                    <span class="hero-road-sign-meta">11-21 →</span>
+                    <span class="hero-road-sign-title"><span class="hero-road-sign-word">WALL</span><span class="hero-road-sign-sup">ST</span></span>
+                </div>
+            </div>
+            <div class="hero-editor-body">
+                <h1 class="hero-title">Sunnee Zhou</h1>
+                <p class="hero-descriptor">
+                    <span id="hero-roles">investment enthusiast</span><span class="hero-cursor" aria-hidden="true">|</span>
+                </p>
+                <ul class="hero-comments" aria-label="Professional highlights">
+                    <li>// Equity Research</li>
+                    <li>// Hedge Funds</li>
+                    <li>// Investment Banking</li>
+                    <li>// Engineering Industrial Sector</li>
+                </ul>
+                <div class="hero-actions">
+                    <a href="#experience" class="button primary">Experience</a>
+                    <a href="#contact" class="button ghost">Connection</a>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="hero-scroll-hint" aria-label="Scroll to explore">
+            <span class="hero-scroll-hint-text">Scroll to explore</span>
+            <span class="hero-scroll-hint-arrow">↓</span>
+        </a>
+    </section>
+
+    <div class="section-connector scroll-reveal">
+        <a href="#about" class="section-connector-link" aria-label="Continue to About">
+            <span class="section-connector-line"></span>
+            <span class="section-connector-title">About</span>
+            <span class="section-connector-keyword">Profile & focus</span>
+            <span class="section-connector-arrow" aria-hidden="true">↓</span>
+        </a>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <section class="section-container section-container--about scroll-reveal" id="about">
+        <div class="section-body">
+            <p>I am a finance student with a strong interest in <a href="#experience" class="highlight-link" title="View experience">Investment Banking</a>, <a href="#work" class="highlight-link" title="View selected Projects">Equity Research</a>, and <a href="#experience" class="highlight-link" title="View experience">Institutional Fund Management</a>.</p>
+            <p>My experience spans internships in fund management, infrastructure advisory, and project finance, working on transactions, modelling and cross-border projects.</p>
+        </div>
+    </section>
+
+    <div class="section-connector scroll-reveal">
+        <a href="#experience" class="section-connector-link" aria-label="Continue to Experience">
+            <span class="section-connector-line"></span>
+            <span class="section-connector-title">Experience</span>
+            <span class="section-connector-keyword">Professional journey</span>
+            <span class="section-connector-arrow" aria-hidden="true">↓</span>
+        </a>
+    </div>
+
+    <!-- EXPERIENCE SECTION (expandable cards like simonfan.xyz) -->
+    <section class="section-container scroll-reveal" id="experience">
+        <div class="section-body section-body--timeline">
+            <div class="timeline">
+                <article class="timeline-item">
+                    <div class="timeline-card" tabindex="0" role="button" aria-expanded="false" aria-label="Expand Investment Society details">
+                        <div class="timeline-card-header">
+                            <span class="timeline-card-icon" aria-hidden="true">
+                                <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" width="22" height="22">
+                                    <path d="M6 32V12l2-1 4 2 6-3 6 3 4-2 2 1v20H6z" fill="currentColor" opacity="0.92"/>
+                                    <path d="M10 16v12h3V16h-3zm7 0v12h3V16h-3zm7 0v12h3V16h-3z" fill="currentColor" opacity="0.75"/>
+                                    <circle cx="31" cy="29" r="6" fill="currentColor"/>
+                                    <text x="31" y="32" text-anchor="middle" fill="#fff" font-size="7" font-weight="700" font-family="system-ui, sans-serif">$</text>
+                                </svg>
+                            </span>
+                            <h3>Investment Society</h3>
+                            <span class="timeline-card-toggle" aria-hidden="true">v</span>
+                        </div>
+                        <p class="company">SIC</p>
+                        <p class="date"><span class="date-icon" aria-hidden="true">📅</span> 2026</p>
+                        <span class="timeline-card-cta timeline-card-cta--expand"><span class="timeline-card-cta-text">View details</span><span class="timeline-card-cta-icon">↓</span></span>
+                        <span class="timeline-card-cta timeline-card-cta--collapse"><span class="timeline-card-cta-text">Show less</span><span class="timeline-card-cta-icon">↑</span></span>
+                        <div class="timeline-card-detail">
+                            <ul class="timeline-card-points">
+                                <li>Built DCF and comparable companies models for listed companies as part of coursework.</li>
+                                <li>Presented investment recommendations to peers and faculty in a structured format.</li>
+                                <li>Led valuation and markets projects, communicating outcomes clearly.</li>
+                            </ul>
+                            <div class="pill-container">
+                                <span class="pill-tag">Valuation</span>
+                                <span class="pill-tag">DCF</span>
+                                <span class="pill-tag">Student</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="timeline-item">
+                    <div class="timeline-card" tabindex="0" role="button" aria-expanded="false" aria-label="Expand Fund Management Intern details">
+                        <div class="timeline-card-header">
+                            <span class="timeline-card-icon" aria-hidden="true">
+                                <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" width="22" height="22">
+                                    <path d="M6 32V12l2-1 4 2 6-3 6 3 4-2 2 1v20H6z" fill="currentColor" opacity="0.92"/>
+                                    <path d="M10 16v12h3V16h-3zm7 0v12h3V16h-3zm7 0v12h3V16h-3z" fill="currentColor" opacity="0.75"/>
+                                    <circle cx="31" cy="29" r="6" fill="currentColor"/>
+                                    <text x="31" y="32" text-anchor="middle" fill="#fff" font-size="7" font-weight="700" font-family="system-ui, sans-serif">$</text>
+                                </svg>
+                            </span>
+                            <h3>Fund Management Intern</h3>
+                            <span class="timeline-card-toggle" aria-hidden="true">v</span>
+                        </div>
+                        <p class="company">XCMG Group</p>
+                        <p class="date"><span class="date-icon" aria-hidden="true">📅</span> 2025</p>
+                        <span class="timeline-card-cta timeline-card-cta--expand"><span class="timeline-card-cta-text">View details</span><span class="timeline-card-cta-icon">↓</span></span>
+                        <span class="timeline-card-cta timeline-card-cta--collapse"><span class="timeline-card-cta-text">Show less</span><span class="timeline-card-cta-icon">↑</span></span>
+                        <div class="timeline-card-detail">
+                            <ul class="timeline-card-points">
+                                <li>Supported capital raising and asset-backed securitisation for multi-billion RMB vehicles.</li>
+                                <li>Prepared deal snapshots and investor materials for internal and external use.</li>
+                                <li>Worked on transaction structuring and performance tracking for securitised pools.</li>
+                            </ul>
+                            <div class="pill-container">
+                                <span class="pill-tag">Fund management</span>
+                                <span class="pill-tag">Securitisation</span>
+                                <span class="pill-tag">DCF</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="timeline-item">
+                    <div class="timeline-card" tabindex="0" role="button" aria-expanded="false" aria-label="Expand Infrastructure Intern details">
+                        <div class="timeline-card-header">
+                            <span class="timeline-card-icon" aria-hidden="true">
+                                <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" width="22" height="22">
+                                    <path d="M6 32V12l2-1 4 2 6-3 6 3 4-2 2 1v20H6z" fill="currentColor" opacity="0.92"/>
+                                    <path d="M10 16v12h3V16h-3zm7 0v12h3V16h-3zm7 0v12h3V16h-3z" fill="currentColor" opacity="0.75"/>
+                                    <circle cx="31" cy="29" r="6" fill="currentColor"/>
+                                    <text x="31" y="32" text-anchor="middle" fill="#fff" font-size="7" font-weight="700" font-family="system-ui, sans-serif">$</text>
+                                </svg>
+                            </span>
+                            <h3>Infrastructure Intern</h3>
+                            <span class="timeline-card-toggle" aria-hidden="true">v</span>
+                        </div>
+                        <p class="company">Tylin International</p>
+                        <p class="date"><span class="date-icon" aria-hidden="true">📅</span> 2023</p>
+                        <span class="timeline-card-cta timeline-card-cta--expand"><span class="timeline-card-cta-text">View details</span><span class="timeline-card-cta-icon">↓</span></span>
+                        <span class="timeline-card-cta timeline-card-cta--collapse"><span class="timeline-card-cta-text">Show less</span><span class="timeline-card-cta-icon">↑</span></span>
+                        <div class="timeline-card-detail">
+                            <ul class="timeline-card-points">
+                                <li>Contributed to analytics and documentation for transport and civil infrastructure projects.</li>
+                                <li>Supported preparation of materials for client and authority reviews.</li>
+                                <li>Helped maintain structured project files and reporting dashboards.</li>
+                            </ul>
+                            <div class="pill-container">
+                                <span class="pill-tag">Infrastructure</span>
+                                <span class="pill-tag">Project finance</span>
+                                <span class="pill-tag">Advisory</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-connector scroll-reveal">
+        <a href="#work" class="section-connector-link" aria-label="Continue to Selected Projects">
+            <span class="section-connector-line"></span>
+            <span class="section-connector-title">Selected Projects</span>
+            <span class="section-connector-keyword">Deal & analysis highlights</span>
+            <span class="section-connector-arrow" aria-hidden="true">↓</span>
+        </a>
+    </div>
+
+    <!-- SELECTED PROJECTS SECTION -->
+    <section class="section-container scroll-reveal" id="work">
+        <div class="section-body">
+            <div class="work-grid">
+                <article class="work-card">
+                    <div class="work-card-image-wrap work-card-image-wrap--placeholder work-card-image-wrap--white">
+                        <span class="work-card-pdf-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="work-card-content">
+                        <div class="work-card-header">
+                            <div class="work-card-title-block">
+                                <h3 class="work-card-subtitle">1. HSBC Case Challenge</h3>
+                                <p class="work-card-meta">2026 Qualifier · Private Banking</p>
+                            </div>
+                            <span class="badge badge-blue">Case study</span>
+                        </div>
+                        <p class="work-card-desc">HSBC Private Banking Case Challenge 2026 qualifier round – case analysis and recommendations.</p>
+                        <div class="pill-container">
+                            <span class="pill-gray">Case challenge</span>
+                            <span class="pill-gray">Private banking</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="work-card">
+                    <div class="work-card-image-wrap work-card-image-wrap--white">
+                        <img src="grab-logo.png" alt="Grab Holdings" class="work-card-image">
+                    </div>
+                    <div class="work-card-content">
+                        <div class="work-card-header">
+                            <div class="work-card-title-block">
+                                <h3 class="work-card-subtitle">2. Grab Holdings</h3>
+                                <p class="work-card-meta">GRAB · NASDAQ</p>
+                            </div>
+                            <span class="badge badge-blue">Pitch Deck</span>
+                        </div>
+                        <p class="work-card-desc">Fundamental analysis with DCF and relative valuation; produced a buy recommendation with defined upside.</p>
+                        <div class="pill-container">
+                            <span class="pill-gray">DCF</span>
+                            <span class="pill-gray">Relative Valuation</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="work-card">
+                    <div class="work-card-image-wrap">
+                        <img src="sheng-siong-logo.png" alt="Sheng Siong Group" class="work-card-image work-card-image--shengsiong">
+                    </div>
+                    <div class="work-card-content">
+                        <div class="work-card-header">
+                            <div class="work-card-title-block">
+                                <h3 class="work-card-subtitle">3. Sheng Siong Group</h3>
+                                <p class="work-card-meta">OV8 · SGX</p>
+                            </div>
+                            <span class="badge badge-indigo">Pitch Deck</span>
+                        </div>
+                        <p class="work-card-desc">Built an integrated financial model to assess margin resilience and growth drivers.</p>
+                        <div class="pill-container">
+                            <span class="pill-gray">LBO / DCF</span>
+                            <span class="pill-gray">Consumer</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="work-card">
+                    <div class="work-card-image-wrap work-card-image-wrap--white">
+                        <img src="maxeon-logo.png" alt="Maxeon" class="work-card-image work-card-image--maxeon">
+                    </div>
+                    <div class="work-card-content">
+                        <div class="work-card-header">
+                            <div class="work-card-title-block">
+                                <h3 class="work-card-subtitle">4. Maxeon Solar Teaser</h3>
+                                <p class="work-card-meta">MAXN · NASDAQ</p>
+                            </div>
+                            <span class="badge badge-indigo">Case Study</span>
+                        </div>
+                        <p class="work-card-desc">Investment teaser highlighting industry dynamics, capital structure, and potential value-creation levers for Maxeon Solar.</p>
+                        <div class="pill-container">
+                            <span class="pill-gray">Energy</span>
+                            <span class="pill-gray">Strategic analysis</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="work-card">
+                    <div class="work-card-image-wrap work-card-image-wrap--placeholder work-card-image-wrap--white">
+                        <span class="work-card-pdf-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="work-card-content">
+                        <div class="work-card-header">
+                            <div class="work-card-title-block">
+                                <h3 class="work-card-subtitle">5. Seres Group</h3>
+                                <p class="work-card-meta">601127 · SSE/ 9927 · HKEX</p>
+                            </div>
+                            <span class="badge badge-blue">Pitch Deck</span>
+                        </div>
+                        <p class="work-card-desc">Pitch deck covering company overview, financials, and dual-listing structure (SSE &amp; HKEX).</p>
+                        <div class="pill-container">
+                            <span class="pill-gray">Pitch Deck</span>
+                            <span class="pill-gray">Dual listing</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="work-card">
+                    <div class="work-card-image-wrap work-card-image-wrap--placeholder work-card-image-wrap--white">
+                        <span class="work-card-pdf-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="work-card-content">
+                        <div class="work-card-header">
+                            <div class="work-card-title-block">
+                                <h3 class="work-card-subtitle">6. Research Reflection Log</h3>
+                                <p class="work-card-meta">Document · Research project</p>
+                            </div>
+                            <span class="badge badge-indigo">Research</span>
+                        </div>
+                        <p class="work-card-desc">Structured reflection on research process, findings, and learning outcomes.</p>
+                        <div class="pill-container">
+                            <span class="pill-gray">Reflection</span>
+                            <span class="pill-gray">Research</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="work-card">
+                    <div class="work-card-image-wrap work-card-image-wrap--placeholder work-card-image-wrap--white">
+                        <span class="work-card-pdf-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="work-card-content">
+                        <div class="work-card-header">
+                            <div class="work-card-title-block">
+                                <h3 class="work-card-subtitle">7. Industrial Sector Deck</h3>
+                                <p class="work-card-meta">Sector analysis · PDF</p>
+                            </div>
+                            <span class="badge badge-indigo">Sector deck</span>
+                        </div>
+                        <p class="work-card-desc">Sector overview and analysis covering industrial segment dynamics and key themes.</p>
+                        <div class="pill-container">
+                            <span class="pill-gray">Industrial</span>
+                            <span class="pill-gray">Sector analysis</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="work-card">
+                    <div class="work-card-image-wrap work-card-image-wrap--placeholder work-card-image-wrap--white">
+                        <span class="work-card-pdf-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="work-card-content">
+                        <div class="work-card-header">
+                            <div class="work-card-title-block">
+                                <h3 class="work-card-subtitle">8. DCF Modelling Visualization</h3>
+                                <p class="work-card-meta">Jupyter Notebook</p>
+                            </div>
+                            <span class="badge badge-blue">Notebook</span>
+                        </div>
+                        <p class="work-card-desc">Interactive Jupyter notebook with DCF model build and visualization of outputs.</p>
+                        <div class="pill-container">
+                            <span class="pill-gray">DCF</span>
+                            <span class="pill-gray">Python</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="work-card">
+                    <div class="work-card-image-wrap work-card-image-wrap--placeholder work-card-image-wrap--white">
+                        <span class="work-card-pdf-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="work-card-content">
+                        <div class="work-card-header">
+                            <div class="work-card-title-block">
+                                <h3 class="work-card-subtitle">9. Tableau</h3>
+                                <p class="work-card-meta">Data visualization · Dashboards</p>
+                            </div>
+                            <span class="badge badge-indigo">Dashboard</span>
+                        </div>
+                        <p class="work-card-desc">Data visualization and interactive dashboards for analysis and reporting.</p>
+                        <div class="pill-container">
+                            <span class="pill-gray">Tableau</span>
+                            <span class="pill-gray">Visualization</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="work-card">
+                    <div class="work-card-image-wrap work-card-image-wrap--placeholder work-card-image-wrap--white">
+                        <span class="work-card-pdf-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="work-card-content">
+                        <div class="work-card-header">
+                            <div class="work-card-title-block">
+                                <h3 class="work-card-subtitle">10. UiPath</h3>
+                                <p class="work-card-meta">Automation · RPA</p>
+                            </div>
+                            <span class="badge badge-indigo">Automation</span>
+                        </div>
+                        <p class="work-card-desc">Robotic process automation and workflow automation projects.</p>
+                        <div class="pill-container">
+                            <span class="pill-gray">RPA</span>
+                            <span class="pill-gray">Automation</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="work-card">
+                    <div class="work-card-image-wrap work-card-image-wrap--white">
+                        <img src="bim-mrt-entrance.png" alt="BIM 3D Modelling of MRT entrance" class="work-card-image">
+                    </div>
+                    <div class="work-card-content">
+                        <div class="work-card-header">
+                            <div class="work-card-title-block">
+                                <h3 class="work-card-subtitle">11. BIM 3D Modelling of MRT Entrance</h3>
+                                <p class="work-card-meta">Infrastructure · 3D model</p>
+                            </div>
+                            <span class="badge badge-indigo">BIM</span>
+                        </div>
+                        <p class="work-card-desc">3D Building Information Modelling of MRT station entrance canopy and structure.</p>
+                        <div class="pill-container">
+                            <span class="pill-gray">BIM</span>
+                            <span class="pill-gray">Infrastructure</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-connector scroll-reveal">
+        <a href="#resume" class="section-connector-link" aria-label="Continue to Resume">
+            <span class="section-connector-line"></span>
+            <span class="section-connector-title">Resume</span>
+            <span class="section-connector-keyword">View online</span>
+            <span class="section-connector-arrow" aria-hidden="true">↓</span>
+        </a>
+    </div>
+
+    <!-- RESUME SECTION -->
+    <section class="section-container section-resume scroll-reveal" id="resume">
+        <div class="section-body section-body--resume">
+            <div class="resume-split">
+                <div class="resume-left">
+                    <div class="resume-card resume-card--compact">
+                        <span class="resume-card-icon" aria-hidden="true">
+                            <img src="resume-icon.png" alt="" width="48" height="48" class="resume-card-icon-img">
+                        </span>
+                        <h3 class="resume-card-title">Zhou Sining – Resume</h3>
+                        <p class="resume-card-subtitle">Lead Analyst of Equity Research | Investment Banking & Finance | Singapore</p>
+                        <div class="resume-card-actions">
+                            <a href="CV%20ZHOU%20SINING.pdf" target="_blank" rel="noopener noreferrer" class="button primary resume-btn-view">View resume online</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume-right">
+                    <p class="resume-focus-label">Skills</p>
+                    <div class="resume-focus-tags">
+                        <span class="resume-tag">Financial Modelling</span>
+                        <span class="resume-tag">Equity Research</span>
+                        <span class="resume-tag">Financial Statements Analysis</span>
+                        <span class="resume-tag">Valuation</span>
+                        <span class="resume-tag">Funds Management</span>
+                        <span class="resume-tag">Investment Banking</span>
+                        <span class="resume-tag">DCF Modelling</span>
+                        <span class="resume-tag">LBO Modelling</span>
+                        <span class="resume-tag">AUTOCAD</span>
+                        <span class="resume-tag">Python</span>
+                        <span class="resume-tag">Building Information Modelling</span>
+                        <span class="resume-tag">Infrastructure </span>
+
+
+                    </div>
+                    <ul class="resume-features">
+                        <li>Updated with latest experience and skills</li>
+                        <li>ATS-friendly formatting for applications</li>
+                        <li>Structured for IB & buy-side roles</li>
+                    </ul>
+                    <div class="resume-stats">
+                        <div class="resume-stat-card"><span class="resume-stat-num">3</span><span class="resume-stat-label">Roles</span></div>
+                        <div class="resume-stat-card"><span class="resume-stat-num">2</span><span class="resume-stat-label">Sectors</span></div>
+                        <div class="resume-stat-card"><span class="resume-stat-num">5+</span><span class="resume-stat-label">Skills</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-connector scroll-reveal">
+        <a href="#contact" class="section-connector-link" aria-label="Continue to Contact">
+            <span class="section-connector-line"></span>
+            <span class="section-connector-title">Contact</span>
+            <span class="section-connector-keyword">Get in touch</span>
+            <span class="section-connector-arrow" aria-hidden="true">↓</span>
+        </a>
+    </div>
+
+    <!-- CONTACT SECTION -->
+    <section class="section-container scroll-reveal" id="contact">
+        <div class="section-body">
+            <p class="hero-subtitle">Open to opportunities in investment banking, equity research, and buy-side internships.</p>
+            <div class="contact-info-grid">
+                <div class="contact-block">
+                    <p class="meta-label">Email</p>
+                    <a href="mailto:sunneezhou@gmail.com" class="email-link">sunneezhou@gmail.com</a>
+                </div>
+                <div class="contact-block">
+                    <p class="meta-label">Links</p>
+                    <div class="pill-container pill-container--inline">
+                        <a href="#" class="pill-gray">LinkedIn</a>
+                        <a href="CV%20ZHOU%20SINING.pdf" target="_blank" rel="noopener noreferrer" class="pill-gray">Resume (PDF)</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <footer class="site-footer">
+        © 2026 Sunnee Zhou. Equity Research & Investment Banking profile.
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
